@@ -52,9 +52,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fc7105b461c683110e46a26acb4c17760723516d",
     "commitName": "agregar captura de estado y mostrar desglose con impuesto inicial en 0",
     "commitTimestamp": 1788883510602,
     "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788883546698,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788884114622,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:aplicar impuesto del 6.25% para TX",
+    "commitTimestamp": 1788884178578,
+    "testId": 3
   }
 ]
