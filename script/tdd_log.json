@@ -24,9 +24,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "417fc435e62ce977cc81ea09c75925f7f813d824",
     "commitName": "feat:calcular precio neto por cantidad y precio",
     "commitTimestamp": 1788882193490,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:interfaz inicial basica",
+    "commitTimestamp": 1788882515872,
+    "testId": 1
   }
 ]
