@@ -4,12 +4,16 @@ class Totalizador {
     }
     calcularImpuesto(neto, estado) {
         
-        if (estado === "TX") return neto * 0.0625;
-        if (estado === "CA") return neto * 0.0825;
-        if (estado === "NY") return neto * 0.08;
-        if (estado === "AL") return neto * 0.04;
-        if (estado === "UT") return neto * 0.0665;
-        return 0;
+        const tasasImpuesto = {
+            "UT": 0.0665,
+            "NY": 0.08,
+            "TX": 0.0625,
+            "AL": 0.04,
+            "CA": 0.0825
+        };
+        
+        const tasa = tasasImpuesto[estado] || 0;
+        return Number((neto * tasa).toFixed(2));
     }
 }
 

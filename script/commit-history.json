@@ -133,17 +133,36 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "9d1ad089245bf79331d2be025f5378dad1a9d926",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-08T16:34:16.000Z",
       "message": "feat:aplicar impuesto del 6.65% para UT",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/9d1ad089245bf79331d2be025f5378dad1a9d926"
     },
     "stats": {
       "total": 7,
       "additions": 5,
       "deletions": 2,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-08T16:36:39.000Z",
+      "message": "refactor:cambio de logica calcular impuesto a un diccionario y a redondeo de 2 decimales",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 10,
+      "deletions": 6,
       "date": "2026-09-08"
     },
     "coverage": 100,
