@@ -45,4 +45,8 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularDescuento(1000)).toEqual(30);
     });
+    it("deberia calcular 5% de descuento para un precio neto igual o mayor a 1500", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularDescuento(1500)).toEqual(75);
+    });
 });
