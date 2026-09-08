@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "503975af43e64d393dabf4b0a0a48e0224870a2b",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-08T16:43:21.000Z",
       "message": "feat: crear funcion de descuento base e integrarlo en la interfaz",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/503975af43e64d393dabf4b0a0a48e0224870a2b"
     },
     "stats": {
       "total": 13,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-08T16:46:50.000Z",
+      "message": "feat: aplicar descuento del 3% para montos mayores o iguales a 1000",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

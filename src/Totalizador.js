@@ -17,6 +17,9 @@ class Totalizador {
     }
 
     calcularDescuento(neto) {
+        if(neto >= 1000) {
+            return Number((neto * 0.03).toFixed(2));
+        }
         return 0; 
     }
 }
