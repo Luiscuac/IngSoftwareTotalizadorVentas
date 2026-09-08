@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8674f0c6ce58cef65a642c46b62c2f82b0b79120",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-08T15:48:34.000Z",
       "message": "feat:interfaz inicial basica",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/8674f0c6ce58cef65a642c46b62c2f82b0b79120"
     },
     "stats": {
       "total": 36,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-08T16:05:08.000Z",
+      "message": "agregar captura de estado y mostrar desglose con impuesto inicial en 0",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 22,
+      "deletions": 3,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }

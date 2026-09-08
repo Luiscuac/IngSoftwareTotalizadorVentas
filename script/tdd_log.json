@@ -30,9 +30,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8674f0c6ce58cef65a642c46b62c2f82b0b79120",
     "commitName": "feat:interfaz inicial basica",
     "commitTimestamp": 1788882515872,
     "testId": 1
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1788882731349,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788882961963,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "agregar captura de estado y mostrar desglose con impuesto inicial en 0",
+    "commitTimestamp": 1788883510602,
+    "testId": 2
   }
 ]
