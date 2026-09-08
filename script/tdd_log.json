@@ -324,9 +324,15 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9706840bbe6a7f73cd1e19d66cc0b48a0c2ec1a1",
     "commitName": "feat: aplicar descuento del 15% para montos mayores o iguales a 30000",
     "commitTimestamp": 1788886750712,
     "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: ajustar el calculo de impuestos para que se aplique sobre el precio descontado",
+    "commitTimestamp": 1788886990924,
+    "testId": 15
   }
 ]
