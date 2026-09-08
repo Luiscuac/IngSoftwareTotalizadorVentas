@@ -1,0 +1,32 @@
+[
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1788881505342,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1788881558642,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1788881620136,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:calcular precio neto por cantidad y precio",
+    "commitTimestamp": 1788882193490,
+    "testId": 0
+  }
+]

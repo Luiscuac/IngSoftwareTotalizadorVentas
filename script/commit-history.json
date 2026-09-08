@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-08T15:43:11.000Z",
+      "message": "feat:calcular precio neto por cantidad y precio",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6379,
+      "additions": 2986,
+      "deletions": 3393,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
