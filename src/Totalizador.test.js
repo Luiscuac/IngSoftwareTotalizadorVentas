@@ -23,5 +23,10 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularImpuesto(100, "CA")).toEqual(8.25);
     });
+    it("deberia calcular 8% de impuesto para el estado NY", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularImpuesto(100, "NY")).toEqual(8);
+    });
+    
 
 });

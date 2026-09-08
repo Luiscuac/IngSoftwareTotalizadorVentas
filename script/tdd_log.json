@@ -96,9 +96,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c1dacbc27499967a8198c0390e276af586545cfe",
     "commitName": "feat:aplicar impuesto del 8.25% para CA",
     "commitTimestamp": 1788884381991,
     "testId": 4
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788884630349,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788884667941,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:aplicar impuesto del 8% para NY",
+    "commitTimestamp": 1788884712911,
+    "testId": 5
   }
 ]
