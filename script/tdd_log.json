@@ -200,9 +200,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "da39d4029fbe977b63883b3519bc4e1d40b1e825",
     "commitName": "refactor:cambio de logica calcular impuesto a un diccionario y a redondeo de 2 decimales",
     "commitTimestamp": 1788885407844,
     "testId": 8
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788885470149,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788885536230,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear funcion de descuento base e integrarlo en la interfaz",
+    "commitTimestamp": 1788885810071,
+    "testId": 9
   }
 ]

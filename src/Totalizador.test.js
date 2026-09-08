@@ -36,4 +36,9 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularImpuesto(100, "UT")).toEqual(6.65);
     });
+    //calcualr descuentos
+    it("deberia calcular 0 de descuento para un precio neto menor a 1000", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularDescuento(999)).toEqual(0);
+    });
 });

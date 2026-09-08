@@ -15,6 +15,10 @@ class Totalizador {
         const tasa = tasasImpuesto[estado] || 0;
         return Number((neto * tasa).toFixed(2));
     }
+
+    calcularDescuento(neto) {
+        return 0; 
+    }
 }
 
 

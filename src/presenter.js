@@ -14,11 +14,13 @@ form.addEventListener("submit", (event) => {
   const estado = estadoInput.value.toUpperCase();
   
   const neto = totalizador.calcularNeto(cantidad, precio);
+  const descuento = totalizador.calcularDescuento(neto);
   const impuesto = totalizador.calcularImpuesto(neto, estado);
   
   div.innerHTML = `
     <p>Precio neto: $${neto}</p>
+    <p>Descuento: $${descuento}</p>
     <p>Impuesto (${estado}): $${impuesto}</p>
-    <h3>Total: $${neto + impuesto}</h3>
+    <h3>Total: $${(neto - descuento) + impuesto}</h3>
   `;
 });

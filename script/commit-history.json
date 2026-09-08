@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "da39d4029fbe977b63883b3519bc4e1d40b1e825",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-08T16:36:39.000Z",
       "message": "refactor:cambio de logica calcular impuesto a un diccionario y a redondeo de 2 decimales",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/da39d4029fbe977b63883b3519bc4e1d40b1e825"
     },
     "stats": {
       "total": 16,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-08T16:43:21.000Z",
+      "message": "feat: crear funcion de descuento base e integrarlo en la interfaz",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
