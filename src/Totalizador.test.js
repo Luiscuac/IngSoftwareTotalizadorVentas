@@ -32,5 +32,8 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularImpuesto(100, "AL")).toEqual(4);
     });
-    
+    it("deberia calcular 6.65% de impuesto para el estado UT", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularImpuesto(100, "UT")).toEqual(6.65);
+    });
 });
