@@ -19,4 +19,9 @@ describe("Totalizador de Ventas", () => {
         expect(totalizador.calcularImpuesto(60, "TX")).toEqual(3.75); 
     });
 
+    it("deberia calcular 8.25% de impuesto para el estado CA", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularImpuesto(100, "CA")).toEqual(8.25);
+    });
+
 });

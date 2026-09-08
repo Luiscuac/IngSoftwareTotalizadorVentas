@@ -74,9 +74,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dc8332420ae5123392ba92ccd2809095c33ff526",
     "commitName": "feat:aplicar impuesto del 6.25% para TX",
     "commitTimestamp": 1788884178578,
     "testId": 3
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1788884291550,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788884332797,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:aplicar impuesto del 8.25% para CA",
+    "commitTimestamp": 1788884381991,
+    "testId": 4
   }
 ]
