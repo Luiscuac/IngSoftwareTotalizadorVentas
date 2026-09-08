@@ -28,5 +28,9 @@ describe("Totalizador de Ventas", () => {
         expect(totalizador.calcularImpuesto(100, "NY")).toEqual(8);
     });
     
-
+    it("deberua calcular 4% de impuesto para el estado AL", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularImpuesto(100, "AL")).toEqual(4);
+    });
+    
 });

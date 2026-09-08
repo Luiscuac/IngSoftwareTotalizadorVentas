@@ -7,6 +7,8 @@ class Totalizador {
         if (estado === "TX") return neto * 0.0625;
         if (estado === "CA") return neto * 0.0825;
         if (estado === "NY") return neto * 0.08;
+        if (estado === "AL") return neto * 0.04;
+        
         return 0;
     }
 }

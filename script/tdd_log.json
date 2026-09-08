@@ -118,9 +118,55 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5b4eeb8ee12368b5864168eb2e35bbfa8787479a",
     "commitName": "feat:aplicar impuesto del 8% para NY",
     "commitTimestamp": 1788884712911,
     "testId": 5
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788884783243,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788884807654,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788884899159,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788885026989,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788885111372,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:aplicar impuesto del 4% para AL",
+    "commitTimestamp": 1788885141944,
+    "testId": 6
   }
 ]
