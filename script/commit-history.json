@@ -247,12 +247,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "43ba9864ee197eb32b5a57699940a04ed9c861cf",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-08T16:56:22.000Z",
       "message": "feat: aplicar descuento del 10% para montos mayores o iguales a 10000",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/43ba9864ee197eb32b5a57699940a04ed9c861cf"
     },
     "stats": {
       "total": 8,
@@ -264,5 +264,24 @@
     "test_count": 13,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-08T16:59:02.000Z",
+      "message": "feat: aplicar descuento del 15% para montos mayores o iguales a 30000",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
