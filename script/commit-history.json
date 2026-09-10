@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6088f9253767c675d74a46b5a0eee9f217389e3d",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T01:44:10.000Z",
       "message": "feat: integrar calculo de descuento por categoria en la presentacion de resultados",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/6088f9253767c675d74a46b5a0eee9f217389e3d"
     },
     "stats": {
       "total": 11,
@@ -414,6 +414,25 @@
     },
     "coverage": 100,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T01:45:01.000Z",
+      "message": "feat: implementar descuento adicional del 1.5% para Material de escritorio",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 8,
+      "deletions": 4,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

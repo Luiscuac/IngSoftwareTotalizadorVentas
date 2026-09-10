@@ -414,9 +414,31 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6088f9253767c675d74a46b5a0eee9f217389e3d",
     "commitName": "feat: integrar calculo de descuento por categoria en la presentacion de resultados",
     "commitTimestamp": 1789004652055,
     "testId": 21
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1789004668337,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1789004691297,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento adicional del 1.5% para Material de escritorio",
+    "commitTimestamp": 1789004703312,
+    "testId": 22
   }
 ]

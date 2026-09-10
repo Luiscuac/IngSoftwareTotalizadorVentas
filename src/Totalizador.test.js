@@ -74,4 +74,9 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuentoPorCategoria("Alimentos")).toEqual(0.02);
     });
+
+    it("deberia calcular 1.5% de descuento adicional para categoria Material de escritorio", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerDescuentoPorCategoria("Material de escritorio")).toEqual(0.015);
+    });
 });
