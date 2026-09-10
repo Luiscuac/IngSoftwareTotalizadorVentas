@@ -610,9 +610,31 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "747a79a997b94b22071388516a62f5769aeb7437",
     "commitName": "feat: implementar logica de costo de envio unitario de pesos menores o iguales a 10",
     "commitTimestamp": 1789006298030,
     "testId": 31
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1789006319265,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789006336512,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar logica de costo de envio unitario para pesos hasta 20",
+    "commitTimestamp": 1789006351855,
+    "testId": 32
   }
 ]

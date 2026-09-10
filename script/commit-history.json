@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "747a79a997b94b22071388516a62f5769aeb7437",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:11:36.000Z",
       "message": "feat: implementar logica de costo de envio unitario de pesos menores o iguales a 10",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/747a79a997b94b22071388516a62f5769aeb7437"
     },
     "stats": {
       "total": 11,
@@ -604,6 +604,25 @@
     },
     "coverage": 100,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:12:29.000Z",
+      "message": "feat: implementar logica de costo de envio unitario para pesos hasta 20",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }
