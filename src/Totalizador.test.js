@@ -84,4 +84,9 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuentoPorCategoria("Electronicos")).toEqual(0.01);
     });
+
+    it("deberia calcular 0% de impuesto adicional para categoria Varios", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerImpuestoPorCategoria("Varios")).toEqual(0);
+    });
 });

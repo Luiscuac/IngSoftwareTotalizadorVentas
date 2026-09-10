@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "242ef931f90890d1c269f0a36ef2c797bb9608b7",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T01:51:54.000Z",
       "message": "feat: implementar descuento adicional del 1% para la categoria Electronicos",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/242ef931f90890d1c269f0a36ef2c797bb9608b7"
     },
     "stats": {
       "total": 6,
@@ -452,6 +452,25 @@
     },
     "coverage": 100,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T01:52:34.000Z",
+      "message": "feat: implementar impuesto adicional base de 0% para categoria Varios",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -42,6 +42,10 @@ class Totalizador {
         if (categoria === "Electronicos") return 0.01;
         return 0; 
     }
+
+    obtenerImpuestoPorCategoria(categoria) {
+        return 0; 
+    }
 }
 
 
