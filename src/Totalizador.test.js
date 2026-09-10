@@ -104,4 +104,9 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerImpuestoPorCategoria("Electronicos")).toEqual(0.04);
     });
+
+    it("deberia calcular 2% de impuesto adicional para categoria Vestimenta", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerImpuestoPorCategoria("Vestimenta")).toEqual(0.02);
+    });
 });

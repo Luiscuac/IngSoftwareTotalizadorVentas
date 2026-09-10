@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "be53950cb1ef4f5b5a81eb8193ff6d9882eb712c",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:02:59.000Z",
       "message": "feat: implementar impuesto adicional para Electronicos",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/be53950cb1ef4f5b5a81eb8193ff6d9882eb712c"
     },
     "stats": {
       "total": 6,
@@ -547,6 +547,25 @@
     },
     "coverage": 100,
     "test_count": 21,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:03:53.000Z",
+      "message": "feat: implementar impuesto adicional para Vestimenta",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }
