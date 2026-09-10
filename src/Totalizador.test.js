@@ -69,4 +69,9 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuentoPorCategoria("Varios")).toEqual(0);
     });
+
+    it("deberia calcular 2% de descuento adicional para categoria Alimentos", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerDescuentoPorCategoria("Alimentos")).toEqual(0.02);
+    });
 });

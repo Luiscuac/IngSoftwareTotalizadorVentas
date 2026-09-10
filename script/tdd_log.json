@@ -386,9 +386,31 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4e1e92683346949760d24a48a898c0223d3c8215",
     "commitName": "feat: implementar descuento adicional base de 0% para categoria varios",
     "commitTimestamp": 1789004221862,
     "testId": 19
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1789004239161,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1789004264089,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento adicional del 2% para la categoria Alimentos",
+    "commitTimestamp": 1789004280394,
+    "testId": 20
   }
 ]

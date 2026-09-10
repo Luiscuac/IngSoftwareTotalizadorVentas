@@ -36,7 +36,10 @@ class Totalizador {
         return 0; 
     }
 
-    obtenerDescuentoPorCategoria(categoria) {
+obtenerDescuentoPorCategoria(categoria) {
+        if (categoria === "Alimentos") {
+            return 0.02;
+        }
         return 0; 
     }
 }

@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4e1e92683346949760d24a48a898c0223d3c8215",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T01:37:00.000Z",
       "message": "feat: implementar descuento adicional base de 0% para categoria varios",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/4e1e92683346949760d24a48a898c0223d3c8215"
     },
     "stats": {
       "total": 11,
@@ -376,6 +376,25 @@
     },
     "coverage": 100,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T01:37:59.000Z",
+      "message": "feat: implementar descuento adicional del 2% para la categoria Alimentos",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }
