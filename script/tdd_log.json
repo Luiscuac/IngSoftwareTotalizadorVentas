@@ -790,9 +790,31 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8bf5b469bfce77895b18f66dca37a2259187ac7d",
     "commitName": "feat: añadir selector de tipo de cliente con valor Normal por defecto en la UI",
     "commitTimestamp": 1789007648438,
     "testId": 41
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1789007684975,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1789007719023,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento de envio para cliente normal",
+    "commitTimestamp": 1789007758130,
+    "testId": 42
   }
 ]

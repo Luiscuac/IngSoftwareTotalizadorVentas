@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8bf5b469bfce77895b18f66dca37a2259187ac7d",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:34:07.000Z",
       "message": "feat: añadir selector de tipo de cliente con valor Normal por defecto en la UI",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/8bf5b469bfce77895b18f66dca37a2259187ac7d"
     },
     "stats": {
       "total": 10,
@@ -794,6 +794,25 @@
     },
     "coverage": 100,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:35:56.000Z",
+      "message": "feat: implementar descuento de envio para cliente normal",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -152,4 +152,10 @@ describe("Totalizador de Ventas", () => {
         expect(totalizador.calcularCostoEnvioTotal(20, 5)).toEqual(100);
     });
 
+    //beneficios por tipo de clientes
+    it("deberia calcular 0% de descuento de envio para cliente Normal", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerDescuentoEnvioPorCliente("Normal")).toEqual(0);
+    });
+
 });

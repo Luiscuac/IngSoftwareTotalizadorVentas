@@ -64,6 +64,12 @@ obtenerImpuestoPorCategoria(categoria) {
     calcularCostoEnvioTotal(cantidad, costoUnitario) {
         return cantidad * costoUnitario;
     }
+
+    obtenerDescuentoEnvioPorCliente(tipoCliente) {
+        if (tipoCliente === "Normal") return 0;
+
+
+    }
 }
 
 
