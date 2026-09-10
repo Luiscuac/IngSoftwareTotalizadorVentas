@@ -480,9 +480,15 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2245d85c5d1f816cf0e214b73ab22afeaf882011",
     "commitName": "feat: implementar impuesto adicional base de 0% para categoria Varios",
     "commitTimestamp": 1789005155689,
     "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: integrar calculo de impuesto por categoria en la presentacion de resultados",
+    "commitTimestamp": 1789005592508,
+    "testId": 25
   }
 ]

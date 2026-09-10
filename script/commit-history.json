@@ -456,17 +456,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2245d85c5d1f816cf0e214b73ab22afeaf882011",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T01:52:34.000Z",
       "message": "feat: implementar impuesto adicional base de 0% para categoria Varios",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/2245d85c5d1f816cf0e214b73ab22afeaf882011"
     },
     "stats": {
       "total": 9,
       "additions": 9,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T01:59:51.000Z",
+      "message": "feat: integrar calculo de impuesto por categoria en la presentacion de resultados",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 13,
+      "deletions": 7,
       "date": "2026-09-10"
     },
     "coverage": 100,
