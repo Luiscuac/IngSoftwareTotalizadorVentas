@@ -8,7 +8,16 @@
     <form id="venta-form">
       <input type="number" id="cantidad" placeholder="Cantidad" required />
       <input type="number" id="precio" placeholder="Precio ($)" required />
-      <input type="text" id="estado" placeholder="Código Estado (ej. TX)" required />
+      <div>
+        <label for="estado">Código de estado:</label>
+        <select id="estado">
+          <option value="UT">UT - Utah</option>
+          <option value="NV">NV - Nevada</option>
+          <option value="TX">TX - Texas</option>
+          <option value="AL">AL - Alabama</option>
+          <option value="CA" selected>CA - California</option> <!-- CA por defecto -->
+        </select>
+      </div>
       <input type="submit" value="Totalizar" />
     </form>
 

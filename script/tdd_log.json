@@ -352,9 +352,15 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "26929f4b89c6cc531c82bc87e106b46f53ff1e1e",
     "commitName": "fix: corregir estado NV y escalon de descuento de 3000 segun requerimientos",
     "commitTimestamp": 1789002668924,
     "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: configurar estado inicial California y agregar lista de estados disponibles",
+    "commitTimestamp": 1789003779072,
+    "testId": 17
   }
 ]

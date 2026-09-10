@@ -304,17 +304,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "26929f4b89c6cc531c82bc87e106b46f53ff1e1e",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T01:11:07.000Z",
       "message": "fix: corregir estado NV y escalon de descuento de 3000 segun requerimientos",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/26929f4b89c6cc531c82bc87e106b46f53ff1e1e"
     },
     "stats": {
       "total": 12,
       "additions": 6,
       "deletions": 6,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T01:29:37.000Z",
+      "message": "feat: configurar estado inicial California y agregar lista de estados disponibles",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
       "date": "2026-09-10"
     },
     "coverage": 100,
