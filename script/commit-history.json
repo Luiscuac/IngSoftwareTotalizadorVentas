@@ -722,17 +722,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "11edd77b6ac4c7709111addbd7fea331167b1d5a",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:24:30.000Z",
       "message": "feat: implementar funcion para calcular costo de envio total",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/11edd77b6ac4c7709111addbd7fea331167b1d5a"
     },
     "stats": {
       "total": 10,
       "additions": 10,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:29:04.000Z",
+      "message": "fix:peso menor a 200 8 dolares",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-09-10"
     },
     "coverage": 100,

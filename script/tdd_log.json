@@ -772,9 +772,15 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "11edd77b6ac4c7709111addbd7fea331167b1d5a",
     "commitName": "feat: implementar funcion para calcular costo de envio total",
     "commitTimestamp": 1789007072424,
     "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix:peso menor a 200 8 dolares",
+    "commitTimestamp": 1789007347418,
+    "testId": 39
   }
 ]
