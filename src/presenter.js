@@ -7,6 +7,7 @@ const estadoInput = document.getElementById("estado");
 const div = document.getElementById("resultado-div");
 const categoriaInput = document.getElementById("categoria");
 const pesoInput = document.getElementById("peso");
+const clienteInput = document.getElementById("cliente");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -27,9 +28,14 @@ form.addEventListener("submit", (event) => {
   const impuestoCategoriaPorcentaje = totalizador.obtenerImpuestoPorCategoria(categoria);
   const impuestoCategoriaMonto = precioConDescuentos * impuestoCategoriaPorcentaje;
   
-  const peso = Number.parseFloat(pesoInput.value) || 0; 
+  const peso = Number.parseFloat(pesoInput.value) || 0;
+  const cliente = clienteInput.value;
   const costoEnvioUnitario = totalizador.obtenerCostoEnvioUnitario(peso);
-  const costoEnvioTotal = totalizador.calcularCostoEnvioTotal(cantidad, costoEnvioUnitario);
+  const costoEnvioTotalBase = totalizador.calcularCostoEnvioTotal(cantidad, costoEnvioUnitario);
+
+  const descuentoEnvioPorcentaje = totalizador.obtenerDescuentoEnvioPorCliente(cliente);
+  const descuentoEnvioMonto = costoEnvioTotalBase * descuentoEnvioPorcentaje;
+  const costoEnvioFinal = costoEnvioTotalBase - descuentoEnvioMonto;
 
 
   div.innerHTML = `
@@ -38,7 +44,8 @@ form.addEventListener("submit", (event) => {
     <p>Descuento adicional (${categoria}): $${descuentoCategoriaMonto}</p>
     <p>Impuesto (${estado}): $${impuesto}</p>
     <p>Impuesto adicional (${categoria}): $${impuestoCategoriaMonto}</p>
-    <p>Costo de envío (${peso} vol/u): $${costoEnvioTotal}</p>
-    <h3>Total: $${(precioConDescuentos + impuesto + impuestoCategoriaMonto + costoEnvioTotal).toFixed(2)}</h3>
-`;
+    <p>Costo de envío base (${peso} vol/u): $${costoEnvioTotalBase}</p>
+    <p>Descuento de envío (${cliente}): -$${descuentoEnvioMonto}</p>
+    <h3>Total: $${(precioConDescuentos + impuesto + impuestoCategoriaMonto + costoEnvioFinal)}</h3>
+  `;
 });

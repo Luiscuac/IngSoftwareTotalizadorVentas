@@ -855,17 +855,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fb23082b75400236b5d679d5d3b46f76c64499b1",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:39:43.000Z",
       "message": "feat: implementar descuento de envio del 1.5% para cliente Especial",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/fb23082b75400236b5d679d5d3b46f76c64499b1"
     },
     "stats": {
       "total": 6,
       "additions": 6,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:48:51.000Z",
+      "message": "feat: aplicar y mostrar descuento de envio segun tipo de cliente en la UI",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 12,
+      "deletions": 5,
       "date": "2026-09-10"
     },
     "coverage": 100,
