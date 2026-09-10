@@ -958,9 +958,15 @@
     "testId": 49
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ad63b429c93b835798f81ef1ba5d5ff8f58d4b7c",
     "commitName": "feat: implementar condicion de descuento fijo de  para cliente Especial",
     "commitTimestamp": 1789008868088,
     "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: integrar calculo de descuento fijo por tipo de cliente en la interfaz",
+    "commitTimestamp": 1789009349350,
+    "testId": 50
   }
 ]

@@ -931,17 +931,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ad63b429c93b835798f81ef1ba5d5ff8f58d4b7c",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:54:27.000Z",
       "message": "feat: implementar condicion de descuento fijo de  para cliente Especial",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/ad63b429c93b835798f81ef1ba5d5ff8f58d4b7c"
     },
     "stats": {
       "total": 8,
       "additions": 8,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 37,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T03:02:28.000Z",
+      "message": "feat: integrar calculo de descuento fijo por tipo de cliente en la interfaz",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 9,
+      "deletions": 5,
       "date": "2026-09-10"
     },
     "coverage": 100,

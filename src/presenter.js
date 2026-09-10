@@ -16,20 +16,22 @@ form.addEventListener("submit", (event) => {
   const precio = Number.parseFloat(precioInput.value);
   const estado = estadoInput.value.toUpperCase();
   const categoria = categoriaInput.value;
+  const cliente = clienteInput.value;
+  const peso = Number.parseFloat(pesoInput.value) || 0;
 
   const neto = totalizador.calcularNeto(cantidad, precio);
 
   const descuento = totalizador.calcularDescuento(neto);
   const descuentoCategoriaPorcentaje = totalizador.obtenerDescuentoPorCategoria(categoria);
   const descuentoCategoriaMonto = neto * descuentoCategoriaPorcentaje;
-  const precioConDescuentos = neto - descuento - descuentoCategoriaMonto;
+
+  const descuentoFijoMonto = totalizador.obtenerDescuentoFijo(cliente, categoria, neto);
+  const precioConDescuentos = neto - descuento - descuentoCategoriaMonto - descuentoFijoMonto;
 
   const impuesto = totalizador.calcularImpuesto(precioConDescuentos, estado);
   const impuestoCategoriaPorcentaje = totalizador.obtenerImpuestoPorCategoria(categoria);
   const impuestoCategoriaMonto = precioConDescuentos * impuestoCategoriaPorcentaje;
   
-  const peso = Number.parseFloat(pesoInput.value) || 0;
-  const cliente = clienteInput.value;
   const costoEnvioUnitario = totalizador.obtenerCostoEnvioUnitario(peso);
   const costoEnvioTotalBase = totalizador.calcularCostoEnvioTotal(cantidad, costoEnvioUnitario);
 
@@ -38,10 +40,12 @@ form.addEventListener("submit", (event) => {
   const costoEnvioFinal = costoEnvioTotalBase - descuentoEnvioMonto;
 
 
+
   div.innerHTML = `
     <p>Precio neto: $${neto}</p>
-    <p>Descuento general: $${descuento}</p>
-    <p>Descuento adicional (${categoria}): $${descuentoCategoriaMonto}</p>
+    <p>Descuento general: -$${descuento}</p>
+    <p>Descuento adicional (${categoria}): -$${descuentoCategoriaMonto}</p>
+    <p>Descuento fijo especial (${cliente}): -$${descuentoFijoMonto}</p>
     <p>Impuesto (${estado}): $${impuesto}</p>
     <p>Impuesto adicional (${categoria}): $${impuestoCategoriaMonto}</p>
     <p>Costo de envío base (${peso} vol/u): $${costoEnvioTotalBase}</p>
