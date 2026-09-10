@@ -130,4 +130,11 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerCostoEnvioUnitario(60)).toEqual(6);
     });
+
+    it("deberia calcular costo de envio unitario de $6.5 para peso entre 81 y 100", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerCostoEnvioUnitario(90)).toEqual(6.5);
+    });
+
+    
 });
