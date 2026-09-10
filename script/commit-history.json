@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b0bf60c271dec6facbe51222eaf77f07c7ba1429",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:01:45.000Z",
       "message": "feat: implementar impuesto adicional del 3% para Muebles",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/b0bf60c271dec6facbe51222eaf77f07c7ba1429"
     },
     "stats": {
       "total": 8,
@@ -528,6 +528,25 @@
     },
     "coverage": 100,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:02:59.000Z",
+      "message": "feat: implementar impuesto adicional para Electronicos",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 21,
     "failed_tests": 0,
     "conclusion": "success"
   }

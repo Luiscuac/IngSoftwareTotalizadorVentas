@@ -46,6 +46,7 @@ class Totalizador {
 obtenerImpuestoPorCategoria(categoria) {
         if (categoria === "Bebidas alcoholicas") return 0.07;
         if (categoria === "Muebles") return 0.03;
+        if (categoria === "Electronicos") return 0.04;
         return 0; 
     }
 }

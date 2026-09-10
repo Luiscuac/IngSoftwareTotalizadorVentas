@@ -530,9 +530,31 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b0bf60c271dec6facbe51222eaf77f07c7ba1429",
     "commitName": "feat: implementar impuesto adicional del 3% para Muebles",
     "commitTimestamp": 1789005707001,
     "testId": 27
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1789005733359,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1789005755033,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar impuesto adicional para Electronicos",
+    "commitTimestamp": 1789005781304,
+    "testId": 28
   }
 ]
