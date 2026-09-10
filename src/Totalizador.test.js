@@ -89,4 +89,9 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerImpuestoPorCategoria("Varios")).toEqual(0);
     });
+
+    it("deberia calcular 7% de impuesto adicional para categoria Bebidas alcoholicas", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerImpuestoPorCategoria("Bebidas alcoholicas")).toEqual(0.07);
+    });
 });

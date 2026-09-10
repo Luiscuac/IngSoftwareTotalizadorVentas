@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cb59024c1b395452b093b0f59d2d9c21c407cc87",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T01:59:51.000Z",
       "message": "feat: integrar calculo de impuesto por categoria en la presentacion de resultados",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/cb59024c1b395452b093b0f59d2d9c21c407cc87"
     },
     "stats": {
       "total": 20,
@@ -490,6 +490,25 @@
     },
     "coverage": 100,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:00:47.000Z",
+      "message": "feat: implementar impuesto adicional del 7% para Bebidas alcoholicas",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }

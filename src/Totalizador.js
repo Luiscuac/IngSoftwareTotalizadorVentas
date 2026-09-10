@@ -44,6 +44,7 @@ class Totalizador {
     }
 
     obtenerImpuestoPorCategoria(categoria) {
+        if (categoria === "Bebidas alcoholicas") return 0.07;
         return 0; 
     }
 }
