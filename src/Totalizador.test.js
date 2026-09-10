@@ -23,9 +23,9 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularImpuesto(100, "CA")).toEqual(8.25);
     });
-    it("deberia calcular 8% de impuesto para el estado NY", () => {
+    it("deberia calcular 8% de impuesto para el estado NV", () => {
         let totalizador = new Totalizador();
-        expect(totalizador.calcularImpuesto(100, "NY")).toEqual(8);
+        expect(totalizador.calcularImpuesto(100, "NV")).toEqual(8);
     });
     
     it("deberua calcular 4% de impuesto para el estado AL", () => {
@@ -45,9 +45,9 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularDescuento(1000)).toEqual(30);
     });
-    it("deberia calcular 5% de descuento para un precio neto igual o mayor a 1500", () => {
+    it("deberia calcular 5% de descuento para un precio neto igual o mayor a 3000", () => {
         let totalizador = new Totalizador();
-        expect(totalizador.calcularDescuento(1500)).toEqual(75);
+        expect(totalizador.calcularDescuento(3000)).toEqual(150);
     });
     it("deberia calcular 7% de descuento para un precio neto mayor o igual a 7000", () => {
         let totalizador = new Totalizador();

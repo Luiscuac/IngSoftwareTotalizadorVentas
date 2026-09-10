@@ -330,9 +330,31 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fe97bc8322276ac67bc3c1b82c953d29975ba3fc",
     "commitName": "fix: ajustar el calculo de impuestos para que se aplique sobre el precio descontado",
     "commitTimestamp": 1788886990924,
     "testId": 15
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1789002602849,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1789002647016,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: corregir estado NV y escalon de descuento de 3000 segun requerimientos",
+    "commitTimestamp": 1789002668924,
+    "testId": 16
   }
 ]

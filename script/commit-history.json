@@ -285,18 +285,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fe97bc8322276ac67bc3c1b82c953d29975ba3fc",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-08T17:03:02.000Z",
       "message": "fix: ajustar el calculo de impuestos para que se aplique sobre el precio descontado",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/fe97bc8322276ac67bc3c1b82c953d29975ba3fc"
     },
     "stats": {
       "total": 4,
       "additions": 3,
       "deletions": 1,
       "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T01:11:07.000Z",
+      "message": "fix: corregir estado NV y escalon de descuento de 3000 segun requerimientos",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6,
+      "date": "2026-09-10"
     },
     "coverage": 100,
     "test_count": 13,
