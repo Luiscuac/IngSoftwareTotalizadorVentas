@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d89a446062e319496d4883f71bda95a67c9871a2",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:07:16.000Z",
       "message": "feat: agregar campo para ingresar el peso volumetrico unitario en la interfaz",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/d89a446062e319496d4883f71bda95a67c9871a2"
     },
     "stats": {
       "total": 8,
@@ -585,6 +585,25 @@
     },
     "coverage": 100,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:11:36.000Z",
+      "message": "feat: implementar logica de costo de envio unitario de pesos menores o iguales a 10",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -580,9 +580,39 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d89a446062e319496d4883f71bda95a67c9871a2",
     "commitName": "feat: agregar campo para ingresar el peso volumetrico unitario en la interfaz",
     "commitTimestamp": 1789006038471,
     "testId": 30
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1789006088034,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1789006234851,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1789006257783,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar logica de costo de envio unitario de pesos menores o iguales a 10",
+    "commitTimestamp": 1789006298030,
+    "testId": 31
   }
 ]

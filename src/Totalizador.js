@@ -50,6 +50,11 @@ obtenerImpuestoPorCategoria(categoria) {
         if (categoria === "Vestimenta") return 0.02;
         return 0; 
     }
+
+    obtenerCostoEnvioUnitario(peso) {
+        if (peso <= 10) return 0;
+        
+    }
 }
 
 

@@ -110,5 +110,9 @@ describe("Totalizador de Ventas", () => {
         expect(totalizador.obtenerImpuestoPorCategoria("Vestimenta")).toEqual(0.02);
     });
 
-    
+    //calcular costo de envio unitario
+    it("deberia calcular costo de envio unitario de $0 para peso entre 0 y 10", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerCostoEnvioUnitario(10)).toEqual(0);
+    });
 });
