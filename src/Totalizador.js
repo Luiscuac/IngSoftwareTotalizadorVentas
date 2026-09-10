@@ -39,6 +39,7 @@ class Totalizador {
     obtenerDescuentoPorCategoria(categoria) {
         if (categoria === "Alimentos") return 0.02;
         if (categoria === "Material de escritorio") return 0.015;
+        if (categoria === "Electronicos") return 0.01;
         return 0; 
     }
 }

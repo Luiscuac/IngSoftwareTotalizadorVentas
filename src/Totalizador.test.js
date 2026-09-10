@@ -79,4 +79,9 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuentoPorCategoria("Material de escritorio")).toEqual(0.015);
     });
+
+    it("deberia calcular 1% de descuento adicional para categoria Electronicos", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerDescuentoPorCategoria("Electronicos")).toEqual(0.01);
+    });
 });

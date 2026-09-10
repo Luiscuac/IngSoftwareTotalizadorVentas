@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "60fe1824ae03a4de5fe23015c10c27de37e3488e",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T01:45:01.000Z",
       "message": "feat: implementar descuento adicional del 1.5% para Material de escritorio",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/60fe1824ae03a4de5fe23015c10c27de37e3488e"
     },
     "stats": {
       "total": 12,
@@ -433,6 +433,25 @@
     },
     "coverage": 100,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T01:51:54.000Z",
+      "message": "feat: implementar descuento adicional del 1% para la categoria Electronicos",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }

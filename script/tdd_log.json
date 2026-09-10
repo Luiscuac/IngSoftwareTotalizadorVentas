@@ -436,9 +436,31 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "60fe1824ae03a4de5fe23015c10c27de37e3488e",
     "commitName": "feat: implementar descuento adicional del 1.5% para Material de escritorio",
     "commitTimestamp": 1789004703312,
     "testId": 22
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1789005073365,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1789005093156,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento adicional del 1% para la categoria Electronicos",
+    "commitTimestamp": 1789005116176,
+    "testId": 23
   }
 ]
