@@ -874,12 +874,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "614b57b56bb9cb4440f6efbc44c855b66bc881ac",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:48:51.000Z",
       "message": "feat: aplicar y mostrar descuento de envio segun tipo de cliente en la UI",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/614b57b56bb9cb4440f6efbc44c855b66bc881ac"
     },
     "stats": {
       "total": 17,
@@ -889,6 +889,25 @@
     },
     "coverage": 100,
     "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:51:09.000Z",
+      "message": "test: añadir pruebas para descuento fijo de  para cliente Recurrente",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }

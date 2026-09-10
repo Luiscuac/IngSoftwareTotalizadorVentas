@@ -892,9 +892,31 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "614b57b56bb9cb4440f6efbc44c855b66bc881ac",
     "commitName": "feat: aplicar y mostrar descuento de envio segun tipo de cliente en la UI",
     "commitTimestamp": 1789008532902,
     "testId": 46
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1789008597163,
+    "success": false,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1789008652326,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: añadir pruebas para descuento fijo de  para cliente Recurrente",
+    "commitTimestamp": 1789008670738,
+    "testId": 47
   }
 ]

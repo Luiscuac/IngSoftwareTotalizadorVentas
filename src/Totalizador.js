@@ -72,6 +72,13 @@ obtenerImpuestoPorCategoria(categoria) {
         if (tipoCliente === "Especial") return 0.015;
 
     }
+
+    obtenerDescuentoFijo(tipoCliente, categoria, neto) {
+        if (tipoCliente === "Recurrente" && categoria === "Alimentos" && neto > 3000) {
+            return 100;
+        }
+        
+    }
 }
 
 

@@ -172,4 +172,10 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuentoEnvioPorCliente("Especial")).toEqual(0.015);
     });
+
+    //descuentos fijos por tipo de cliente
+    it("deberia calcular $100 de descuento fijo para cliente Recurrente, Alimentos y neto mayor a 3000", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerDescuentoFijo("Recurrente", "Alimentos", 3001)).toEqual(100);
+    });
 });
