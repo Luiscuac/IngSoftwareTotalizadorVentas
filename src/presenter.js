@@ -9,6 +9,11 @@ const categoriaInput = document.getElementById("categoria");
 const pesoInput = document.getElementById("peso");
 const clienteInput = document.getElementById("cliente");
 
+
+const accionesCompraDiv = document.getElementById("acciones-compra");
+const btnConfirmar = document.getElementById("btn-confirmar");
+const btnCancelar = document.getElementById("btn-cancelar");
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const totalizador = new Totalizador();
@@ -52,4 +57,22 @@ form.addEventListener("submit", (event) => {
     <p>Descuento de envío (${cliente}): -$${descuentoEnvioMonto}</p>
     <h3>Total: $${(precioConDescuentos + impuesto + impuestoCategoriaMonto + costoEnvioFinal)}</h3>
   `;
+
+  accionesCompraDiv.style.display = "block";
+
+  btnConfirmar.addEventListener("click", () => {
+    alert("¡Compra confirmada con éxito!");
+    limpiarPantalla();
+  });
+
+  btnCancelar.addEventListener("click", () => {
+    alert("Compra cancelada.");
+    limpiarPantalla();
+  });
+
+  function limpiarPantalla() {
+    form.reset(); 
+    div.innerHTML = ""; 
+    accionesCompraDiv.style.display = "none";
+  }
 });

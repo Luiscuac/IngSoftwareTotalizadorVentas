@@ -969,17 +969,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "42095aa61cc3669e3733af0bc9411f455ad594f4",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T03:14:07.000Z",
       "message": "feat: implementar validacion contra numeros negativos o cero en la logica de negocio",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/42095aa61cc3669e3733af0bc9411f455ad594f4"
     },
     "stats": {
       "total": 19,
       "additions": 16,
       "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T04:43:52.000Z",
+      "message": "feat: añadir botones de confirmar y cancelar compra con reseteo de interfaz",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 33,
+      "deletions": 0,
       "date": "2026-09-10"
     },
     "coverage": 100,

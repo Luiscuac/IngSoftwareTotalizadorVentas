@@ -986,9 +986,15 @@
     "testId": 51
   },
   {
-    "commitId": "HEAD",
+    "commitId": "42095aa61cc3669e3733af0bc9411f455ad594f4",
     "commitName": "feat: implementar validacion contra numeros negativos o cero en la logica de negocio",
     "commitTimestamp": 1789010048583,
     "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: añadir botones de confirmar y cancelar compra con reseteo de interfaz",
+    "commitTimestamp": 1789015433997,
+    "testId": 52
   }
 ]
