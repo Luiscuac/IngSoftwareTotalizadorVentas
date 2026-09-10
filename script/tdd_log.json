@@ -856,9 +856,39 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bde9698651988fd2848705f982a501039b62d15a",
     "commitName": "feat: implementar descuento de envio para cliente Antiguo recuerrente",
     "commitTimestamp": 1789007900725,
     "testId": 44
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 1,
+    "numTotalTests": 34,
+    "timestamp": 1789007913200,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 1,
+    "numTotalTests": 34,
+    "timestamp": 1789007921942,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1789007965473,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento de envio del 1.5% para cliente Especial",
+    "commitTimestamp": 1789007984269,
+    "testId": 45
   }
 ]
