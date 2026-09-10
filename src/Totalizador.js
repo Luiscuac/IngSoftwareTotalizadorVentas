@@ -58,6 +58,7 @@ obtenerImpuestoPorCategoria(categoria) {
         if(peso <= 80) return 6;
         if(peso <= 100) return 6.5;
         if(peso <= 150) return 8;
+        return 9;
     }
 }
 
