@@ -912,12 +912,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "212e5b8756ab2e964738a7327063184edaded4ee",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:53:16.000Z",
       "message": "feat: implementar caso en el que no se cumplen todas las condiciones",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/212e5b8756ab2e964738a7327063184edaded4ee"
     },
     "stats": {
       "total": 6,
@@ -927,6 +927,25 @@
     },
     "coverage": 100,
     "test_count": 36,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:54:27.000Z",
+      "message": "feat: implementar condicion de descuento fijo de  para cliente Especial",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 37,
     "failed_tests": 0,
     "conclusion": "success"
   }

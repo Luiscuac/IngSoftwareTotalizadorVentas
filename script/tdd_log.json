@@ -936,9 +936,31 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "212e5b8756ab2e964738a7327063184edaded4ee",
     "commitName": "feat: implementar caso en el que no se cumplen todas las condiciones",
     "commitTimestamp": 1789008798045,
     "testId": 48
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 1,
+    "numTotalTests": 37,
+    "timestamp": 1789008826377,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1789008853815,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar condicion de descuento fijo de  para cliente Especial",
+    "commitTimestamp": 1789008868088,
+    "testId": 49
   }
 ]

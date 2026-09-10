@@ -183,4 +183,9 @@ describe("Totalizador de Ventas", () => {
         expect(totalizador.obtenerDescuentoFijo("Recurrente", "Alimentos", 3000)).toEqual(0); 
         expect(totalizador.obtenerDescuentoFijo("Recurrente", "Varios", 4000)).toEqual(0); 
     });
+
+    it("deberia calcular $200 de descuento fijo para cliente Especial, Electronicos y neto mayor a 7000", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerDescuentoFijo("Especial", "Electronicos", 7001)).toEqual(200);
+    });
 });
