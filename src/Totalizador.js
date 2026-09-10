@@ -77,6 +77,7 @@ obtenerImpuestoPorCategoria(categoria) {
         if (tipoCliente === "Recurrente" && categoria === "Alimentos" && neto > 3000) {
             return 100;
         }
+        return 0;
         
     }
 }

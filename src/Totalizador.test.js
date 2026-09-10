@@ -178,4 +178,9 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuentoFijo("Recurrente", "Alimentos", 3001)).toEqual(100);
     });
+    it("deberia calcular $0 de descuento fijo si no cumple todas las condiciones de Recurrente", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerDescuentoFijo("Recurrente", "Alimentos", 3000)).toEqual(0); 
+        expect(totalizador.obtenerDescuentoFijo("Recurrente", "Varios", 4000)).toEqual(0); 
+    });
 });

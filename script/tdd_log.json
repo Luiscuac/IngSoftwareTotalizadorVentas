@@ -914,9 +914,31 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d870744fd3dfaaa0f0a170fa9ef3ae53ec9c0cc6",
     "commitName": "test: añadir pruebas para descuento fijo de  para cliente Recurrente",
     "commitTimestamp": 1789008670738,
     "testId": 47
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 1,
+    "numTotalTests": 36,
+    "timestamp": 1789008703509,
+    "success": false,
+    "testId": 48
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1789008715212,
+    "success": true,
+    "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar caso en el que no se cumplen todas las condiciones",
+    "commitTimestamp": 1789008798045,
+    "testId": 48
   }
 ]

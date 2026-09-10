@@ -893,12 +893,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d870744fd3dfaaa0f0a170fa9ef3ae53ec9c0cc6",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:51:09.000Z",
       "message": "test: añadir pruebas para descuento fijo de  para cliente Recurrente",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/d870744fd3dfaaa0f0a170fa9ef3ae53ec9c0cc6"
     },
     "stats": {
       "total": 13,
@@ -908,6 +908,25 @@
     },
     "coverage": 100,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:53:16.000Z",
+      "message": "feat: implementar caso en el que no se cumplen todas las condiciones",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }
