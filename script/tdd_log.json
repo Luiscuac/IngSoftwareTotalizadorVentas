@@ -778,9 +778,15 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d0502a1a5fc0a074474bba8e8ec4cd740a8890cf",
     "commitName": "fix:peso menor a 200 8 dolares",
     "commitTimestamp": 1789007347418,
     "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: integrar el calculo de costo de envio en la presentacion de resultados",
+    "commitTimestamp": 1789007618942,
+    "testId": 40
   }
 ]

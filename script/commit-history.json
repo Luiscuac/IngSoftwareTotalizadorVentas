@@ -741,17 +741,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d0502a1a5fc0a074474bba8e8ec4cd740a8890cf",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:29:04.000Z",
       "message": "fix:peso menor a 200 8 dolares",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/d0502a1a5fc0a074474bba8e8ec4cd740a8890cf"
     },
     "stats": {
       "total": 2,
       "additions": 1,
       "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:33:37.000Z",
+      "message": "feat: integrar el calculo de costo de envio en la presentacion de resultados",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 15,
+      "deletions": 8,
       "date": "2026-09-10"
     },
     "coverage": 100,
