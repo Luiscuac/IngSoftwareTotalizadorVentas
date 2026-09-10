@@ -992,9 +992,15 @@
     "testId": 51
   },
   {
-    "commitId": "HEAD",
+    "commitId": "180c99d77eda489f96e747e708bde0484605f45a",
     "commitName": "feat: añadir botones de confirmar y cancelar compra con reseteo de interfaz",
     "commitTimestamp": 1789015433997,
     "testId": 52
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: aplicar redondeo visual de 2 decimales a todos los montos en la interfaz y ssacar los botones de compra y cancelacion de los form",
+    "commitTimestamp": 1789015876547,
+    "testId": 53
   }
 ]

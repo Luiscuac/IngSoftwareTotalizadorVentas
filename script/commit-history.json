@@ -988,17 +988,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "180c99d77eda489f96e747e708bde0484605f45a",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T04:43:52.000Z",
       "message": "feat: añadir botones de confirmar y cancelar compra con reseteo de interfaz",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/180c99d77eda489f96e747e708bde0484605f45a"
     },
     "stats": {
       "total": 33,
       "additions": 33,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T04:51:15.000Z",
+      "message": "refactor: aplicar redondeo visual de 2 decimales a todos los montos en la interfaz y ssacar los botones de compra y cancelacion de los form",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 53,
+      "additions": 27,
+      "deletions": 26,
       "date": "2026-09-10"
     },
     "coverage": 100,

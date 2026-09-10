@@ -46,33 +46,34 @@ form.addEventListener("submit", (event) => {
 
 
 
-  div.innerHTML = `
-    <p>Precio neto: $${neto}</p>
-    <p>Descuento general: -$${descuento}</p>
-    <p>Descuento adicional (${categoria}): -$${descuentoCategoriaMonto}</p>
-    <p>Descuento fijo especial (${cliente}): -$${descuentoFijoMonto}</p>
-    <p>Impuesto (${estado}): $${impuesto}</p>
-    <p>Impuesto adicional (${categoria}): $${impuestoCategoriaMonto}</p>
-    <p>Costo de envío base (${peso} vol/u): $${costoEnvioTotalBase}</p>
-    <p>Descuento de envío (${cliente}): -$${descuentoEnvioMonto}</p>
-    <h3>Total: $${(precioConDescuentos + impuesto + impuestoCategoriaMonto + costoEnvioFinal)}</h3>
+div.innerHTML = `
+    <p>Precio neto: $${neto.toFixed(2)}</p>
+    <p>Descuento general: -$${descuento.toFixed(2)}</p>
+    <p>Descuento adicional (${categoria}): -$${descuentoCategoriaMonto.toFixed(2)}</p>
+    <p>Descuento fijo especial (${cliente}): -$${descuentoFijoMonto.toFixed(2)}</p>
+    <p>Impuesto (${estado}): $${impuesto.toFixed(2)}</p>
+    <p>Impuesto adicional (${categoria}): $${impuestoCategoriaMonto.toFixed(2)}</p>
+    <p>Costo de envío base (${peso} vol/u): $${costoEnvioTotalBase.toFixed(2)}</p>
+    <p>Descuento de envío (${cliente}): -$${descuentoEnvioMonto.toFixed(2)}</p>
+    <h3>Total: $${(precioConDescuentos + impuesto + impuestoCategoriaMonto + costoEnvioFinal).toFixed(2)}</h3>
   `;
 
   accionesCompraDiv.style.display = "block";
 
-  btnConfirmar.addEventListener("click", () => {
-    alert("¡Compra confirmada con éxito!");
-    limpiarPantalla();
-  });
-
-  btnCancelar.addEventListener("click", () => {
-    alert("Compra cancelada.");
-    limpiarPantalla();
-  });
-
-  function limpiarPantalla() {
-    form.reset(); 
-    div.innerHTML = ""; 
-    accionesCompraDiv.style.display = "none";
-  }
 });
+
+btnConfirmar.addEventListener("click", () => {
+  alert("¡Compra confirmada con éxito!");
+  limpiarPantalla();
+});
+
+btnCancelar.addEventListener("click", () => {
+  alert("Compra cancelada.");
+  limpiarPantalla();
+});
+
+function limpiarPantalla() {
+  form.reset(); 
+  div.innerHTML = ""; 
+  accionesCompraDiv.style.display = "none";
+}
