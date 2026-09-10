@@ -323,17 +323,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6294af280dd08ebcd59454e9918a1ca67cdf8a0b",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T01:29:37.000Z",
       "message": "feat: configurar estado inicial California y agregar lista de estados disponibles",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/6294af280dd08ebcd59454e9918a1ca67cdf8a0b"
     },
     "stats": {
       "total": 11,
       "additions": 10,
       "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T01:35:09.000Z",
+      "message": "feat: añadir lista desplegable de categorias con varios por defecto",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
       "date": "2026-09-10"
     },
     "coverage": 100,
