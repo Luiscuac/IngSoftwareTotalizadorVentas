@@ -35,6 +35,10 @@ class Totalizador {
 
         return 0; 
     }
+
+    obtenerDescuentoPorCategoria(categoria) {
+        return 0; 
+    }
 }
 
 

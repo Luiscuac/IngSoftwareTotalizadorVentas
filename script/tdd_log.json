@@ -364,9 +364,31 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "df89d7d7d5d80b0200dbdf65e43f34d4e97fe70a",
     "commitName": "feat: añadir lista desplegable de categorias con varios por defecto",
     "commitTimestamp": 1789004111411,
     "testId": 18
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1789004148128,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789004197771,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento adicional base de 0% para categoria varios",
+    "commitTimestamp": 1789004221862,
+    "testId": 19
   }
 ]

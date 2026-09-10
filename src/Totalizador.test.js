@@ -62,4 +62,11 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.calcularDescuento(30000)).toEqual(4500);
     });
+
+    //categorias
+
+    it("deberia calcular 0% de descuento adicional para categoria Varios", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerDescuentoPorCategoria("Varios")).toEqual(0);
+    });
 });

@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "df89d7d7d5d80b0200dbdf65e43f34d4e97fe70a",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T01:35:09.000Z",
       "message": "feat: añadir lista desplegable de categorias con varios por defecto",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/df89d7d7d5d80b0200dbdf65e43f34d4e97fe70a"
     },
     "stats": {
       "total": 12,
@@ -357,6 +357,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T01:37:00.000Z",
+      "message": "feat: implementar descuento adicional base de 0% para categoria varios",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
