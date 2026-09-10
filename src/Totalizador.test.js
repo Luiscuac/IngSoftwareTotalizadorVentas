@@ -158,4 +158,9 @@ describe("Totalizador de Ventas", () => {
         expect(totalizador.obtenerDescuentoEnvioPorCliente("Normal")).toEqual(0);
     });
 
+    it("deberia calcular 0.5% de descuento de envio para cliente Recurrente", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerDescuentoEnvioPorCliente("Recurrente")).toEqual(0.005);
+    });
+
 });

@@ -812,9 +812,31 @@
     "testId": 42
   },
   {
-    "commitId": "HEAD",
+    "commitId": "36a021735f1c611fc29ab4f01c29331ae9def779",
     "commitName": "feat: implementar descuento de envio para cliente normal",
     "commitTimestamp": 1789007758130,
     "testId": 42
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1789007786569,
+    "success": false,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1789007804772,
+    "success": true,
+    "testId": 43
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento de envio para cliente recurrente",
+    "commitTimestamp": 1789007824290,
+    "testId": 43
   }
 ]
