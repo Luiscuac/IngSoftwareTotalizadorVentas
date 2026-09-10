@@ -784,9 +784,15 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a976207c5cced76aaca7f9f229bfb0a3bead2f4e",
     "commitName": "feat: integrar el calculo de costo de envio en la presentacion de resultados",
     "commitTimestamp": 1789007618942,
     "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: añadir selector de tipo de cliente con valor Normal por defecto en la UI",
+    "commitTimestamp": 1789007648438,
+    "testId": 41
   }
 ]

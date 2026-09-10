@@ -760,17 +760,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a976207c5cced76aaca7f9f229bfb0a3bead2f4e",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:33:37.000Z",
       "message": "feat: integrar el calculo de costo de envio en la presentacion de resultados",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/a976207c5cced76aaca7f9f229bfb0a3bead2f4e"
     },
     "stats": {
       "total": 23,
       "additions": 15,
       "deletions": 8,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:34:07.000Z",
+      "message": "feat: añadir selector de tipo de cliente con valor Normal por defecto en la UI",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
       "date": "2026-09-10"
     },
     "coverage": 100,
