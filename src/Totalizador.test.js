@@ -94,4 +94,9 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerImpuestoPorCategoria("Bebidas alcoholicas")).toEqual(0.07);
     });
+
+    it("deberia calcular 3% de impuesto adicional para categoria Muebles", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.obtenerImpuestoPorCategoria("Muebles")).toEqual(0.03);
+    });
 });

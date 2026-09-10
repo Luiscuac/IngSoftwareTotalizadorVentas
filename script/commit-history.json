@@ -494,12 +494,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5422fbd42d5dbc24d774bfa206a917a313f61e31",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:00:47.000Z",
       "message": "feat: implementar impuesto adicional del 7% para Bebidas alcoholicas",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/5422fbd42d5dbc24d774bfa206a917a313f61e31"
     },
     "stats": {
       "total": 6,
@@ -509,6 +509,25 @@
     },
     "coverage": 100,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:01:45.000Z",
+      "message": "feat: implementar impuesto adicional del 3% para Muebles",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }
