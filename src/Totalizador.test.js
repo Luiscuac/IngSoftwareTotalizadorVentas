@@ -109,4 +109,6 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerImpuestoPorCategoria("Vestimenta")).toEqual(0.02);
     });
+
+    
 });

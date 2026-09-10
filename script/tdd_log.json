@@ -574,9 +574,15 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a5366657620a46309361e4d7a19bfc70d6955332",
     "commitName": "feat: implementar impuesto adicional para Vestimenta",
     "commitTimestamp": 1789005834791,
     "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar campo para ingresar el peso volumetrico unitario en la interfaz",
+    "commitTimestamp": 1789006038471,
+    "testId": 30
   }
 ]

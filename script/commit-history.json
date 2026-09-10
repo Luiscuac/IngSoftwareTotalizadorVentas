@@ -551,16 +551,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a5366657620a46309361e4d7a19bfc70d6955332",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T02:03:53.000Z",
       "message": "feat: implementar impuesto adicional para Vestimenta",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/a5366657620a46309361e4d7a19bfc70d6955332"
     },
     "stats": {
       "total": 6,
       "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T02:07:16.000Z",
+      "message": "feat: agregar campo para ingresar el peso volumetrico unitario en la interfaz",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
       "deletions": 0,
       "date": "2026-09-10"
     },
