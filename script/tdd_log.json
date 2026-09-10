@@ -408,9 +408,15 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2f125d3d077876a7b5364cc898d4b3856acc6663",
     "commitName": "feat: implementar descuento adicional del 2% para la categoria Alimentos",
     "commitTimestamp": 1789004280394,
     "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: integrar calculo de descuento por categoria en la presentacion de resultados",
+    "commitTimestamp": 1789004652055,
+    "testId": 21
   }
 ]
