@@ -146,4 +146,10 @@ describe("Totalizador de Ventas", () => {
         expect(totalizador.obtenerCostoEnvioUnitario(250)).toEqual(9);
     });
 
+    //calcular costo de envio total
+    it("deberia calcular costo de envio total multiplicando cantidad por costo unitario", () => {
+        let totalizador = new Totalizador();
+        expect(totalizador.calcularCostoEnvioTotal(20, 5)).toEqual(100);
+    });
+
 });

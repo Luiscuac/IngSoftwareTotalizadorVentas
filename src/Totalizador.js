@@ -60,6 +60,10 @@ obtenerImpuestoPorCategoria(categoria) {
         if(peso <= 150) return 8;
         return 9;
     }
+
+    calcularCostoEnvioTotal(cantidad, costoUnitario) {
+        return cantidad * costoUnitario;
+    }
 }
 
 

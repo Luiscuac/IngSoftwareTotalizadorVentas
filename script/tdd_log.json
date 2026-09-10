@@ -750,9 +750,31 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4e6310164684892e84be093798a3eeb42369fad1",
     "commitName": "feat: implementar logica de costo de envio unitario para pesos arriba de 200",
     "commitTimestamp": 1789006849204,
     "testId": 37
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1789007046561,
+    "success": false,
+    "testId": 38
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1789007063377,
+    "success": true,
+    "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar funcion para calcular costo de envio total",
+    "commitTimestamp": 1789007072424,
+    "testId": 38
   }
 ]
