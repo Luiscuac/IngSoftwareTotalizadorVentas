@@ -188,4 +188,11 @@ describe("Totalizador de Ventas", () => {
         let totalizador = new Totalizador();
         expect(totalizador.obtenerDescuentoFijo("Especial", "Electronicos", 7001)).toEqual(200);
     });
+
+    it("deberia lanzar un error si la cantidad, el precio o el peso son menores o iguales a cero", () => {
+        let totalizador = new Totalizador();
+        expect(() => totalizador.calcularNeto(-5, 3)).toThrow("Valores inválidos");
+        expect(() => totalizador.calcularNeto(20, -10)).toThrow("Valores inválidos");
+        expect(() => totalizador.obtenerCostoEnvioUnitario(-5)).toThrow("Valores inválidos");
+    });
 });

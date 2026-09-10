@@ -950,12 +950,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0daea05744c82034b6e1f8b6a37c0e6ae8f1bfe7",
     "author": "Luiscuac",
     "commit": {
       "date": "2026-09-10T03:02:28.000Z",
       "message": "feat: integrar calculo de descuento fijo por tipo de cliente en la interfaz",
-      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/0daea05744c82034b6e1f8b6a37c0e6ae8f1bfe7"
     },
     "stats": {
       "total": 14,
@@ -965,6 +965,25 @@
     },
     "coverage": 100,
     "test_count": 37,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Luiscuac",
+    "commit": {
+      "date": "2026-09-10T03:14:07.000Z",
+      "message": "feat: implementar validacion contra numeros negativos o cero en la logica de negocio",
+      "url": "https://github.com/Luiscuac/IngSoftwareTotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 16,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 38,
     "failed_tests": 0,
     "conclusion": "success"
   }

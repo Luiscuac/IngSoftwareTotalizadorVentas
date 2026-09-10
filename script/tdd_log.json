@@ -964,9 +964,31 @@
     "testId": 49
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0daea05744c82034b6e1f8b6a37c0e6ae8f1bfe7",
     "commitName": "feat: integrar calculo de descuento fijo por tipo de cliente en la interfaz",
     "commitTimestamp": 1789009349350,
     "testId": 50
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 1,
+    "numTotalTests": 38,
+    "timestamp": 1789009980978,
+    "success": false,
+    "testId": 51
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1789010035730,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar validacion contra numeros negativos o cero en la logica de negocio",
+    "commitTimestamp": 1789010048583,
+    "testId": 51
   }
 ]

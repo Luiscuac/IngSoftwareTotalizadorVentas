@@ -1,5 +1,8 @@
 class Totalizador {
     calcularNeto(cantidad, precio) {
+        if (cantidad <= 0 || precio <= 0) {
+            throw new Error("Valores inválidos");
+        }
         return cantidad * precio;
     }
     calcularImpuesto(neto, estado) {
@@ -52,6 +55,9 @@ obtenerImpuestoPorCategoria(categoria) {
     }
 
     obtenerCostoEnvioUnitario(peso) {
+        if (peso < 0) {
+            throw new Error("Valores inválidos");
+        }
         if (peso <= 10) return 0;
         if (peso <= 20) return 3.5;
         if (peso <= 40) return 5;
